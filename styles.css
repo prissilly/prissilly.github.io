@@ -1,1 +1,196 @@
 
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+    font-size: 20pt;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    background-color: #8fb19d; 
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    top: 0;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px 20px;
+    transition: color 0.3s ease-in-out;
+    margin-right: 30px;
+    font-size: 25pt;
+    top: 0;
+  }
+  
+  #navbar a:hover {
+    color: #cda2db; 
+  }
+  
+  
+  #welcome-section {
+    background-color: #cda2db; 
+    padding: 100px 0;
+    top: 20px;
+    justify-content: center;
+  }
+  
+  #welcome-section .welcome-content {
+    max-width: 1600px;
+    margin: 0 auto;
+    color: white;
+    top: 20px;
+    justify-content: center;
+  }
+  
+  #welcome-section h1 {
+    font-size: 4.5rem;
+    font-family: 'Playfair Display', serif;
+    margin-left: 10px;
+    top: 20px;
+    justify-content: center;
+    left: 20%;
+  
+  }
+  
+  
+  .project-tile {
+    background-color: #f0e4e4; 
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #8fb19d; 
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-tile:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-tile a {
+    text-decoration: none;
+    color: #333; 
+  }
+  
+  #profile-stuff {
+    background-color: #f0e4e4; 
+    text-align: center;
+    padding: 100px 0;
+    justify-content: center;
+  }
+  
+  #profile-stuff .profile-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333; 
+    justify-content: center;
+  }
+  
+  #profile-stuff h2 {
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+  }
+  
+  #profile-stuff a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #8fb19d; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+    justify-content: center;
+  }
+  
+  #profile-stuff a:hover {
+    background-color: #cda2db; 
+  }
+  
+  .portfolio{
+    justify-content: center;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0e4e4;
+    color: #333; 
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    justify-content: center;
+  
+  }
+  
+  .enlarge-on-hover {
+    width: 700px;
+    height: auto;
+    margin: 10px;
+    border-radius: 20px;
+  
+  }
+  
+  .enlarge-on-hover:hover {
+    transform: scale(1.5);
+  }
+  
+  .flexcon{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .floating-image {
+    animation: floatAnimation 5s infinite;
+    justify-content: center;
+  }
+  
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .textcon{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  article {
+  
+  margin:20px;
+  padding: 50px;
+   text-align: justify;
+  
+  }
+  
+  
+  @media (hover: hover) {
+    #portfolio {
+      color: rebeccapurple;
+    }
+  }
